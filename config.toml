@@ -1,0 +1,11 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hugo-theme-codex-master"
+
+[params]
+  linkedin = "https://www.linkedin.com/in/abhishek-jariwala1/"
+  github = "https://github.com/AbhishekJariwala"
+  # ...
+
+  iconOrder = ["Linkedin", "GitHub"]
