@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'www.abhijariwala.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Abhi Jariwala'
 theme = "hugo-theme-codex-master"
 
 [params]
