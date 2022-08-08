@@ -1,4 +1,4 @@
-baseURL = 'www.abhijariwala.com/'
+baseURL = 'https://abhijariwala.netlify.app/'
 languageCode = 'en-us'
 title = 'Abhi Jariwala'
 theme = "hugo-theme-codex-master"
