@@ -27,3 +27,16 @@ theme = "hugo-theme-codex-master"
   name = "resume"
   title = "Resume"
   url = "/resume"
+
+  [[menu.main]]
+  identifier = "tutorials"
+  name = "tutorials"
+  title = "Tutorials"
+  url = "/tutorials"
+
+    [[menu.main]]
+  identifier = "porftolio"
+  name = "portfolio"
+  title = "Portfolio"
+  url = "/portfolio"
+
