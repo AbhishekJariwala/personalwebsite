@@ -9,17 +9,25 @@
     
     <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
     {{ if isset .Params "handle" }}
-    <span class="handle">@{{ .Params.handle }}</span>
+    <span class="handle">{{ .Params.handle }}</span>
     {{ end }}
     <h2>
       {{ .Params.subheading }}
     </h2>
-    <writing>I am an aspiring cybersecurity professional. 
-
-      This website is also my portfolio, blog and resume. The "tutorial" tab is me learning in public, and a demonstration of my knowledge as a beginner to other beginners.
+    <writing>This website is my portfolio, blog and resume. The "tutorial" tab is me learning in public, and a demonstration of my knowledge as a beginner to other beginners.
     </writing>
-    <h3>{{ .Params.featuredprojects}}</h3>
-    <h3>{{ .Params.featuredblogs}}</h3>
+    <h3>My Featured Projects</h3>
+    <div class = "wrapper">
+      <div class="item">coming soon!</div> <!--first-->
+      <div class="item">coming soon!</div> <!--second-->
+      <div class="item">coming soon!</div> <!--third-->
+      <div class="item">coming soon!</div> <!--fourth-->
+      <div class="item">coming soon!</div> <!--fifth-->
+  
+    </div>
+    <h3>My Featured Blog Posts</h3>
+
+    <a href = "http://localhost:1313/blog/firstblog/"> My first blog</a>
 
     {{ partial "social-icons.html" .}}
   </div>
