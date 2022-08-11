@@ -59,17 +59,18 @@
 
 /* overrides */
 
-.wrapper{
+.projects{
   max-height: 210px;
   border: 1px solid #ddd;
   display: flex;
   overflow-x: auto;
 }
 
-.wrapper::-webkit-scrollbar{
+.projects::-webkit-scrollbar{
   width: 0;
+  display: none;
 }
-.wrapper .item{
+.projects .item{
   min-width: 200px;
   height: 200px;
   line-height: 200px;
