@@ -59,25 +59,6 @@
 
 /* overrides */
 
-.projects{
-  max-height: 210px;
-  border: 1px solid #ddd;
-  display: flex;
-  overflow-x: auto;
-}
-
-.projects::-webkit-scrollbar{
-  width: 0;
-  display: none;
-}
-.projects .item{
-  min-width: 200px;
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background-color: #ddd;
-  margin-right: 5px;
-}
 main {
   padding-top: 0;
   padding-bottom: 0;
